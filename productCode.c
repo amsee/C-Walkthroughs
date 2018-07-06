@@ -1,5 +1,6 @@
 // Product Code
-//
+// 
+#include <stdio.h>
 
 #define C 14
 #define P 10
@@ -33,5 +34,10 @@ int main(void)
 		j++;
 	}
 	printf("The price is $%.2lf\n", x / 100);
-
 }
+
+/* OUTPUT */
+
+/*
+
+*/
