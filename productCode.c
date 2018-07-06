@@ -1,5 +1,6 @@
 // Product Code
 // 
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 #define C 14
@@ -16,14 +17,14 @@ int main(void)
 		d = i % 10;
 		// open a switch block
 		switch (j) { // the j is compared to the different cases
-		case C:
+		case C: //1-14
 			printf("The company name is %d\n", k);
 			break;
-		case P:
+		case P: //1-10
 			printf("The product number is %d\n", k);
 			k = 0;
 			break;
-		case R:
+		case R: //1-6
 			k = 0;
 		}
 		if (j < 6)
@@ -35,9 +36,3 @@ int main(void)
 	}
 	printf("The price is $%.2lf\n", x / 100);
 }
-
-/* OUTPUT */
-
-/*
-
-*/
